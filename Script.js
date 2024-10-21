@@ -10,7 +10,15 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('shrink');
     }
+});window.addEventListener('scroll', function() {
+    const header = document.querySelector('header nav ul');
+    if (window.scrollY > 50) {
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
 });
+
 document.addEventListener("DOMContentLoaded", function() {
     const materialBoxes = document.querySelectorAll('.material-box');
     const modal = document.getElementById('modal');
