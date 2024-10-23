@@ -10,7 +10,15 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('shrink');
     }
+});window.addEventListener('scroll', function() {
+    const header = document.querySelector('header nav ul');
+    if (window.scrollY > 50) {
+        header.classList.add('shrink');
+    } else {
+        header.classList.remove('shrink');
+    }
 });
+
 document.addEventListener("DOMContentLoaded", function() {
     const materialBoxes = document.querySelectorAll('.material-box');
     const modal = document.getElementById('modal');
@@ -52,4 +60,30 @@ window.addEventListener('pageshow', function(event) {
     if (event.persisted) {
         document.body.classList.remove('fade-out');
     }
+});
+function toggleMenu() {
+    console.log('Toggle Menu Triggered');  // This will print in the browser's console
+    const navbar = document.getElementById("navbar");
+    const icon = document.getElementById("menu-icon");
+  
+    // Toggle the active class for the navbar
+    navbar.classList.toggle("active");
+  
+    // Ensure the hamburger icon stays visible
+    icon.classList.toggle("open");
+  }
+  document.addEventListener("DOMContentLoaded", function() {
+    function checkWindowSize() {
+        if (window.innerWidth < 800) {
+            document.getElementById('mobile-overlay').style.display = "flex"; // Show the overlay
+        } else {
+            document.getElementById('mobile-overlay').style.display = "none"; // Hide the overlay
+        }
+    }
+
+    // Check on page load
+    checkWindowSize();
+
+    // Check on window resize
+    window.addEventListener('resize', checkWindowSize);
 });

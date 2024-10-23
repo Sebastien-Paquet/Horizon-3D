@@ -9,22 +9,27 @@
 <body class="fade-in">
     <header>
         <div class="logo">
-            <a href="index.html"><img src="logo.png" alt="Horizon 3D Logo"></a>
+            <a href="index.html"><img src="logo.png" alt="Horizon 3D"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="materials.html">Matériaux</a></li>
-            </ul>
-        </nav>
+        <div class="navbar" id="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                     <li><a href="about.html">À propos</a></li>
+                     <li><a href="services.html">Services</a></li>
+                     <li><a href="materials.html">Matériaux</a></li>
+                  </ul>
+              </nav>
+          </div>  
+        <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="toggleMenu()">
+            &#9776;
+          </a>
     </header>
     
     <main class="materials">
         <div class="material-box" id="material1" data-image="Materials\PLA.png">
                     <h3>PLA</h3>
-                    <p class="short-desc"> Matériel écologique et abordable. Idéal pour le protopypage</p>
+                    <p class="short-desc"> Matériel écologique et abordable. Idéal pour le prototypage</p>
                     <p class="long-desc">Cliquer pour plus de détail</p>
                 </div>
   
@@ -97,8 +102,11 @@
         <p>**Les spécifications mentionnées sont basées sur les fiches matériaux de certains de nos fournisseurs de filaments et pourraient varier des spécifications du matériel utilisé pour votre pièce</p>
         </div>
     </main>
+    <div id="mobile-overlay">
+        <p>Mobile page under construction</p>
+    </div>
     <footer>
-        <p>Contactez-nous: admin@hi-inc.ca | 418-230-1772</p>
+        <p>Contactez-nous: info@hi-inc.ca | 418-230-1772</p>
         <nav>
             <ul>
                 <li><a href="terms.pdf" target="_blank">Termes et conditions</a></li>

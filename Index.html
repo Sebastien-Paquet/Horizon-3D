@@ -12,25 +12,32 @@
         <div class="logo">
             <a href="index.html"><img src="logo.png" alt="Horizon 3D"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="materials.html">Matériaux</a></li>
-            </ul>
-        </nav>
+        <div class="navbar" id="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                     <li><a href="about.html">À propos</a></li>
+                     <li><a href="services.html">Services</a></li>
+                     <li><a href="materials.html">Matériaux</a></li>
+                  </ul>
+              </nav>
+          </div>  
+        <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="toggleMenu()">
+            &#9776;
+          </a>
     </header>
+
     <main>
         <section class="homepage-title">
-            <h1>Découvrez le potentiel de l'impression 3D</h1>
+            <p><h1>Découvrez </h1>
+            <h2>le potentiel de l'impression 3D</h2></p>
         </section>
 
         <section class="banner-section">
             <div class="banner-image">
-                <img src="Images/banner1.jpg" alt="Banner Image 1">
+                <img src="images/banner1.jpg" alt="Banner Image 1">
                 <video src="about.mp4" autoplay loop muted></video>
-                <img src="Images/banner2.jpeg" alt="Banner Image 2">
+                <img src="images/banner2.jpeg" alt="Banner Image 2">
             </div>
         </section>
 
@@ -38,28 +45,31 @@
             <a href="about.html" class="sections">
                 <div class="sections-content">
                     <img src=about-icon.png alt="About Icon">
-                    <h2>À propos</h2>
-                    <p>Découvrez Horizon 3D.</p>
+                    <h2>Notre expertise</h2>
+                    <p>Découvrez Horizon 3D</p>
                 </div>
             </a>
             <a href="services.html" class="sections">
                 <div class="sections-content">
                     <img src=services-icon.png alt="Services Icon">
-                    <h2>Services</h2>
-                    <p>Comment nous pouvons vous aider.</p>
+                    <h2>Nos services</h2>
+                    <p>Trouvez le service adapté à vos besoins</p>
                 </div>
             </a>
             <a href="materials.html" class="sections">
                 <div class="sections-content">
                     <img src=materials-icon.png alt="Materials Icon">
-                    <h2>Matériaux</h2>
-                    <p>Une grande variété pour tous les besoins.</p>
+                    <h2>Les matériaux</h2>
+                    <p>Explorez les matériaux offerts</p>
                 </div>
             </a>
             </div>
     </main>
+    <div id="mobile-overlay">
+        <p>Mobile page under construction</p>
+    </div>
         <footer>
-        <p>Contactez-nous: admin@hi-inc.ca | 418-230-1772</p>
+        <p>Contactez-nous: info@hi-inc.ca | 418-230-1772</p>
         <nav>
             <ul>
                 <li><a href="terms.pdf" target="_blank">Termes et conditions</a></li>
@@ -69,5 +79,6 @@
         </nav>
     </footer>      
     <script src="script.js"></script>
+    
 </body>
 </html>
