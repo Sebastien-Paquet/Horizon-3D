@@ -23,6 +23,7 @@ header {
 }
 header.shrink {
     padding: 10px;
+    background-color: #0000009f;
 }
 
 header .logo img {
@@ -58,7 +59,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #ff6600; /* Orange color for links */
+    color: #ff4f00; /* Orange color for links */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -78,7 +79,7 @@ header nav ul li a:hover {
 
 .logo h1 {
     display: inline;
-    color: #ff6600;
+    color: #ff4f00;
 }
 
 /* Initially hide the navbar links when screen is small */
@@ -90,7 +91,7 @@ header nav ul li a:hover {
     width: auto; /* No need to adjust width for large screens */
     list-style: none;
     font-size: x-large;
-    color: #ff6600;
+    color: #ff4f00;
   }
    
   .icon {
@@ -124,7 +125,7 @@ header nav ul li a:hover {
       top: 35px;
       font-size: 30px;
       margin-right: 2em;
-      color: #ff6600;
+      color: #ff4f00;
       cursor: pointer;
     }
   
@@ -133,7 +134,7 @@ header nav ul li a:hover {
       display: flex;
       font-size: small;
       text-align: left; /* Center or left-align depending on your design */
-      color: #ff6600; /* Adjust text color for readability */
+      color: #ff4f00; /* Adjust text color for readability */
       padding: 10px 0; /
     }
   
@@ -159,7 +160,7 @@ header nav ul li a:hover {
     align-items: center;
     font-size: 100px;
     text-align: center;
-    color: #ff6600;
+    color: #ff4f00;
     padding-top: 60px; /* Space for fixed header */
 }
 
@@ -195,7 +196,7 @@ header nav ul li a:hover {
 }
 
 .link-content h3 a {
-    color: #ff6600;
+    color: #ff4f00;
     text-decoration: none;
     font-size: 1.5em;
 }
@@ -213,6 +214,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: x-large;
+    background-color: #0000009f;
 }
 
 footer p {
@@ -230,7 +233,7 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    color: #ff6600;
+    color: #ff4f00;
     text-decoration: none;
 }
 footer nav ul li a:hover {
@@ -250,9 +253,6 @@ footer nav ul li a:hover {
     flex: 1;
     margin: 20px;
     padding: 20px;
-    
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.39); /* Subtle shadow for depth */
     transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
@@ -280,7 +280,7 @@ footer nav ul li a:hover {
 .about-text h2 {
     font-size: 24px; /* Larger font size for heading */
     margin-bottom: 20px;
-    color: #ff6600; /* Orange color for the heading */
+    color: #ff4f00; /* Orange color for the heading */
 }
 
 .about-image img {
@@ -332,7 +332,7 @@ footer nav ul li a:hover {
 
 .service-info p {
     margin: 0;
-    color: #ff6600; /* Orange color for hover text */
+    color: #ff4f00; /* Orange color for hover text */
 }
 
 .service-image {
@@ -343,7 +343,7 @@ footer nav ul li a:hover {
 }
 
 .service-content h2 {
-    color: #ff6600; /* Orange color for section titles */
+    color: #ff4f00; /* Orange color for section titles */
 }
 
 .materials {
@@ -355,7 +355,7 @@ footer nav ul li a:hover {
 }
 
 .material-box {
-    background-color: #444444cb; /* Slightly lighter grey for boxes */
+    background-color: #0000008f; /* Slightly lighter grey for boxes */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -370,13 +370,14 @@ footer nav ul li a:hover {
 }
 
 .material-box h3 {
-    color: #ff6600;
+    color: #ff4f00;
     margin: 0;
     font-size: 1.5em;
 }
 
 .material-box .short-desc {
     margin: 10px 0;
+    font-size: large;
 }
 
 .material-box .long-desc {
@@ -406,12 +407,12 @@ footer nav ul li a:hover {
     color: #ff9900;
 }
 .faq a {
-    color: #ff6600;
+    color: #ff4f00;
     font-style: oblique;
     font: bold;
 }
 .faq h1 {
-    color: #ff6600;
+    color: #ff4f00;
     font-size: larger;
 }
 .faq-cookies {
@@ -431,7 +432,7 @@ footer nav ul li a:hover {
 }
 
 .faq h2, .cookies h2 {
-    color: #ff6600;
+    color: #ff4f00;
 }
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -476,7 +477,7 @@ html {
 
 .sections h2 {
     margin: 10px 0;
-    color: #ff6600; /* Change text color to orange */
+    color: #ff4f00; /* Change text color to orange */
 }
 /* Modal Styles */
 .modal {
@@ -589,7 +590,7 @@ html {
 }
 
 .about-text h2 {
-    color: #ff6600;
+    color: #ff4f00;
 }
 
 .about-text p {
@@ -597,7 +598,7 @@ html {
 }
 
 .about-text a {
-    color: #ff6600;
+    color: #ff4f00;
     text-decoration: none;
     font-weight: bold;
 }
@@ -619,7 +620,7 @@ html {
 }
 
 .services-text h2 {
-    color: #ff6600;
+    color: #ff4f00;
 }
 
 .services-text p {
@@ -627,7 +628,7 @@ html {
 }
 
 .services-text a {
-    color: #ff6600;
+    color: #ff4f00;
     text-decoration: none;
     font-weight: bold;
 }
