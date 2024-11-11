@@ -4,8 +4,10 @@ body {
     padding: 0;
     background-color: #000000;
     background-image: url('bg-image.jpg');
+    background-size: cover; /* Position the background for readability */
     color: #fff;
 }
+
 
 header {
     background-image: url('header-bg.png');
@@ -171,6 +173,7 @@ header nav ul li a:hover {
 .homepage-title h2 {
     align-items: center;
 }
+
 .link {
     width: 100%;
     padding: 60px 20px;
@@ -242,7 +245,9 @@ footer nav ul li a:hover {
 .about-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    background-color: #000000a1;
+    background-position-y: bottom;
     min-height: calc(100vh - 90px); /* Make the container take full viewport height */
     padding-top: 120px;
     padding-left: 20px;
@@ -350,12 +355,12 @@ footer nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 200px 20px 20px; /* Padding to account for fixed header */
+    padding: 150px; /* Padding to account for fixed header */
     box-sizing: border-box;
 }
 
 .material-box {
-    background-color: #0000008f; /* Slightly lighter grey for boxes */
+    background-color: #000000a8; /* Slightly lighter grey for boxes */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -366,7 +371,7 @@ footer nav ul li a:hover {
 .material-box:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    background-color: #555; /* Highlight color */
+    background-color: #2c2c2c; /* Highlight color */
 }
 
 .material-box h3 {
@@ -381,13 +386,14 @@ footer nav ul li a:hover {
 }
 
 .material-box .long-desc {
-    display: none;
+    color: #00000000; /* Slightly lighter grey for boxes */
     font-size: 0.7em;
     font-style: italic;
 }
 
 .material-box:hover .long-desc {
     display: block;
+    color: #fff;
     animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -556,7 +562,6 @@ html {
     display: block;
     justify-content: center;
     align-items: center; /* This centers the images vertically */
-    padding: 5px;
     width: 100%;
 }
     
@@ -577,10 +582,9 @@ html {
 }
 
 .banner-image video {
-    width: 33%;
-    border-radius: 8px;
+    width: 100%;
     object-fit: cover;
-    height: max-content;
+    height: 350px;
 }
 
 .about-text {
