@@ -409,6 +409,7 @@ footer nav ul li a:hover {
 }
 .disclaimer {
     font-size: small;
+    display: none;
     padding : 20px;
     text-align: left;
     color: #ff9900;
