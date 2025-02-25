@@ -303,6 +303,7 @@ footer nav ul li a:hover {
     align-items: center;
     justify-content: left;
     padding: 20px;
+    padding-right: 40%;
     background-color: #000000cb;
     border-bottom: 1px solid #ccc;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
