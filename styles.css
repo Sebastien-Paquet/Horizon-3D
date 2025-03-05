@@ -2,6 +2,7 @@ body {
     font-family: Georgia, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 24px;
     background-color: #000000;
     background-image: url('bg-image.jpg');
     background-size: cover; /* Position the background for readability */
@@ -220,6 +221,10 @@ footer {
     font-size: x-large;
     background-color: #0000009f;
 }
+footer a {
+    color: #ff4f00;
+    text-decoration: none;
+}
 
 footer p {
     margin: 10px 0;
@@ -271,7 +276,7 @@ footer nav ul li a:hover {
     align-items: center;
     justify-content: center;
     text-align: center; /* Center the text horizontally */
-    font-size: 18px; /* Adjust font size */
+    font-size: 24px; /* Adjust font size */
     color: #ffffff; /* Dark grey color for readability */
     opacity: 0; /* Start with opacity 0 */
     animation: fadeIn 1s ease-in-out forwards; /* Fade in animation */
@@ -283,7 +288,7 @@ footer nav ul li a:hover {
 }
 
 .about-text h2 {
-    font-size: 24px; /* Larger font size for heading */
+    font-size: 40px; /* Larger font size for heading */
     margin-bottom: 20px;
     color: #ff4f00; /* Orange color for the heading */
 }
@@ -324,7 +329,7 @@ footer nav ul li a:hover {
     transform: translateY(-50%); /* Center vertically */
     display: none; /* Initially hide the info text */
     padding: 20px;
-    font-size: large;
+    font-size: 24px;
     background-color: rgba(114, 114, 114, 0); /* Dark background for hover text */
     border-radius: 8px; /* Rounded corners */
     opacity: 0; /* Start hidden */
@@ -342,7 +347,7 @@ footer nav ul li a:hover {
 }
 
 .service-image {
-    width: 200px; /* Adjust the size as needed */
+    width: 250px; /* Adjust the size as needed */
     height: auto;
     margin-right: 20px;
     margin-left: 50px; /* Offset by 50px */
@@ -350,6 +355,7 @@ footer nav ul li a:hover {
 
 .service-content h2 {
     color: #ff4f00; /* Orange color for section titles */
+    font-size: 40px;
 }
 
 .materials {
@@ -378,12 +384,12 @@ footer nav ul li a:hover {
 .material-box h3 {
     color: #ff4f00;
     margin: 0;
-    font-size: 1.5em;
+    font-size: 40px;
 }
 
 .material-box .short-desc {
     margin: 10px 0;
-    font-size: large;
+    font-size: 24px;
 }
 
 .material-box .long-desc {
@@ -421,7 +427,7 @@ footer nav ul li a:hover {
 }
 .faq h1 {
     color: #ff4f00;
-    font-size: larger;
+    font-size: 40px;
 }
 .faq-cookies {
     display: flex;
@@ -672,4 +678,97 @@ html {
 #mobile-overlay p {
     font-size: 2em;
     font-weight: bold;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 30px 30px;
+    padding-top: 80px;
+    background-color: #000000a8;
+}
+
+.contact-form, .blank-section, .quote-download {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #ff4f00;
+    font-size: 40px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 40px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e55e00;
+}
+
+.Infoletter-section {
+    padding: 40px 40px;
+}
+
+.Infoletter-section h2 {
+    margin-bottom: 20px;
+    color: #ff4f00;
+    font-size: 40px;
+}
+
+.quote-download {
+    text-align: center;
+
+}
+
+.quote-download h2 {
+    margin-bottom: 20px;
+    color: #ff4f00;
+    font-size: 40px;
+}
+
+.quote-download button {
+    padding: 15px 40px;
+    font-size: 16px;
+    background-color:  #ff6600 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quote-download button:hover {
+    background-color:#e55e00;
 }

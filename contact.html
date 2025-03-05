@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Horizon 3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="fade-in">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="Horizon 3D"></a>
+        </div>
+        <div class="navbar" id="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                     <li><a href="about.html">À propos</a></li>
+                     <li><a href="services.html">Services</a></li>
+                     <li><a href="materials.html">Matériaux</a></li>
+                     <li><a href="contact.html" target="_blank">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>  
+        <a href="javascript:void(0);" class="icon" id="menu-icon" onclick="toggleMenu()">
+            &#9776;
+          </a>
+    </header>
+        <main>
+            <div class="contact-container">
+                <!-- Contact Form Section -->
+                <section class="contact-form">
+                    <h2>Contactez-nous</h2>
+                    <form action="mailto:impressionh3d@abritek.ca" method="post" enctype="text/plain">
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="company">Compagnie :</label>
+                        <input type="text" id="company" name="company">
+                        
+                        <label for="email">Adresse Courriel:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" maxlength="1000" required></textarea>
+                        
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </section>
+                
+                <!-- Infoletter Middle Section -->
+                <section class="Infoletter-section">
+                    <h2>Abonnez-vous à notre infolettre!</h2>
+                    <form action="mailto:impressionh3d@abritek.ca" method="post" enctype="text/plain">
+                    <label for="E-mail">Courriel:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <button>Envoyer</button>
+                </form>
+                </section>
+                
+                <!-- Quotation Download Section -->
+                <section class="quote-download">
+                    <h2>Demandez votre soumission</h2>
+                    <a href="fiche.xlsx" download>
+                        <button>Téléchargez le document de soumission</button>
+                    </a>
+                </section>
+            </div>
+        </main>
+    <div id="mobile-overlay">
+        <p>Mobile page under construction</p>
+    </div>
+    <footer>
+        <p>Contactez-nous: <a href="mailto:impressionh3d@abritek.ca">Impressionh3d@abritek.ca </a> | 418-230-1772</p>
+        <nav>
+            <ul>
+                <li><a href="terms.pdf" target="_blank">Termes et conditions</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="faq.html">Cookies et Confidentialité</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
