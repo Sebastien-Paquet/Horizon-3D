@@ -689,16 +689,14 @@ html {
     background-color: #000000a8;
 }
 
-.contact-form, .blank-section, .quote-download {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
 
 .contact-form {
-    padding: 30px;
+    padding: 30px 400px 0px 250px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-form h2 {
@@ -726,7 +724,7 @@ html {
 
 .contact-form button {
     margin-top: 15px;
-    padding: 40px 20px;
+    padding: 10px 20px;
     background-color: #ff6600;
     color: white;
     border: none;
@@ -771,4 +769,38 @@ html {
 
 .quote-download button:hover {
     background-color:#e55e00;
+}
+/* Right: Stacked Sections */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    padding: 0px 300px 0px 00px;
+    text-align: center;
+}
+
+/* Infoletter Section */
+.Infoletter-section {
+    flex: 1;
+    background-color: transparent;
+}
+
+/* Quote Section */
+.quote-section {
+    text-align: center;
+}
+
+.download-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #e55e00;
 }
