@@ -699,7 +699,7 @@ html {
     text-align: center;
 }
 
-.contact-form h2 {
+.contact-container h2 {
     margin-bottom: 20px;
     color: #ff4f00;
     font-size: 40px;
@@ -708,7 +708,6 @@ html {
 .contact-form label {
     display: block;
     margin: 10px 0 5px;
-    font-weight: bold;
 }
 
 .contact-form input, .contact-form textarea {
@@ -722,7 +721,7 @@ html {
     height: 150px;
 }
 
-.contact-form button {
+.contact-container button {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #ff6600;
@@ -730,6 +729,7 @@ html {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: large;
 }
 
 .contact-form button:hover {
